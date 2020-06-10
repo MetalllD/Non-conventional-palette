@@ -6,18 +6,24 @@ import Useroutput from './Useroutput';
 import Header1 from './Header1';
 import Header2 from './Header2';
 import Header from './Header';
+import Create from './Create';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+
 
 class App extends Component{
 
     state =  {
 
         persons : [
-            { id:'1' , name: 'HELLO WORLD !!' , class1: 'purple1', class2:"purple2" , back1:"#212122", back2:" #E49AD9"},
-            { id:'2' , name: 'HELLO WORLD !!' , class1: 'teal1' , class2:"teal2" , back1:"#93E9BE" , back2:"#3C6BE4"},
-            { id:'3' , name: 'HELLO WORLD !!' , class1: 'blue1' , class2:"blue2" , back1:"#006382" , back2:"#DBFF00"},
-            { id:'4' , name: 'HELLO WORLD !!' , class1: 'orange1' , class2:"orange2" , back1:"#212122" , back2:"#FB710E"},
-            { id:'5' , name: 'HELLO WORLD !!' , class1: 'blue3' , class2:"blue4" , back1:"#160B44" , back2:"#D19AE4"},
-            { id:'6' , name: 'HELLO WORLD !!' , class1: 'olive1' , class2:"olive2" , back1:"#4D6B5C" , back2:"#BDFF00"}
+            { id:'1' , name: 'HELLO !' , class1: 'purple1', class2:"purple2" , back1:"#212122", back2:" #E49AD9"},
+            { id:'2' , name: 'HELLO !' , class1: 'teal1' , class2:"teal2" , back1:"#93E9BE" , back2:"#3C6BE4"},
+            { id:'3' , name: 'HELLO !' , class1: 'blue1' , class2:"blue2" , back1:"#006382" , back2:"#DBFF00"},
+            { id:'4' , name: 'HELLO !' , class1: 'orange1' , class2:"orange2" , back1:"#212122" , back2:"#FB710E"},
+            { id:'5' , name: 'HELLO !' , class1: 'blue3' , class2:"blue4" , back1:"#160B44" , back2:"#D19AE4"},
+            { id:'6' , name: 'HELLO !' , class1: 'olive1' , class2:"olive2" , back1:"#4D6B5C" , back2:"#BDFF00"}
            
         ]
 
@@ -57,8 +63,12 @@ in any part of your website or in any kind of graphic design work.</p>
                 back2={person.back2}
                     /> 
                  })}
-        </div>
+                 </div>
    
+            <Create />
+
+           
+
         </div>
     )
 }
