@@ -13,8 +13,7 @@ transition: all 0.5s ease;
 
 &:hover{
     color:#E49AD9;
-  font-size: 25px;
-  cursor: pointer;
+    cursor: pointer;
 }`;
 
 class Header extends Component {

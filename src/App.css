@@ -108,7 +108,7 @@
 }
 
 #box{
-  width:30%;
+  width:40%;
   font-size:20px;
   padding:10px;
   background-color: rgba(23, 64, 97, 0.336);
@@ -123,7 +123,7 @@
 
 .purple1{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #212122;
   font-size: 40px;
   color:#E49AD9;
@@ -133,7 +133,7 @@
 
 .purple2{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #E49AD9;
   font-size: 40px;
   color:#212122;
@@ -143,7 +143,7 @@
 
 .teal1{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #93E9BE;
   font-size: 40px;
   color:#3C6BE4;
@@ -153,7 +153,7 @@
 
 .teal2{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #3C6BE4;
   font-size: 40px;
   color:#93E9BE;
@@ -163,7 +163,7 @@
 
 .blue1{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #006382;
   font-size: 40px;
   color:#DBFF00;
@@ -173,7 +173,7 @@
 
 .blue2{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #DBFF00;
   font-size: 40px;
   color:#006382;
@@ -183,7 +183,7 @@
 
 .orange1{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #212122;
   font-size: 40px;
   color:#FB710E;
@@ -193,7 +193,7 @@
 
 .orange2{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #FB710E;
   font-size: 40px;
   color:#212122;
@@ -203,7 +203,7 @@
 
 .olive1{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #4D6B5C;
   font-size: 40px;
   color:#BDFF00;
@@ -213,7 +213,7 @@
 
 .olive2{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #BDFF00;
   font-size: 40px;
   color:#4D6B5C;
@@ -223,7 +223,7 @@
 
 .blue3{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #160B44;
   font-size: 40px;
   color:#D19AE4;
@@ -233,7 +233,7 @@
 
 .blue4{
   display:inline-block;
-  width:40%;
+  width:30%;
   background-color: #D19AE4;
   font-size: 40px;
   color:#160B44;
@@ -247,6 +247,10 @@
   margin-right:-10px;
   color:#fff;
   font-size:20px;
+}
+
+.container{
+  margin:40px;
 }
 
 

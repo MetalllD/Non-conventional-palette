@@ -63,15 +63,24 @@ class Create extends Component {
               <Row>
 
               <Col>
+              <h1>Pick background color</h1>
+              </Col>
+
+              <Col>
                  <SketchPicker
                  color={ this.state.background }
                  onChangeComplete={ this.handleChangeCompleteBack }
                  /></Col>
+                
 
                  <Col><SketchPicker
                  color={ this.state.color }
                  onChangeComplete={ this.handleChangeCompleteFont }
                  /></Col>
+
+              <Col>
+              <h1>Pick text color</h1>
+              </Col>
 
               </Row>
               </Container>
