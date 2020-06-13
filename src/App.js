@@ -6,6 +6,8 @@ import Useroutput from './Useroutput';
 import Header1 from './Header1';
 import Header2 from './Header2';
 import Header from './Header';
+import Asset1 from './Asset1';
+import Asset2 from './Asset2';
 import Create from './Create';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container'
@@ -48,8 +50,8 @@ class App extends Component{
             <Header />
             <Header1 />
             <Header2 />
-            <p class="discre"> Color contrast is a free collection of some cool and trend color contrast ideas that you can use as
-in any part of your website or in any kind of graphic design work.</p>
+            <p class="discre"> A platform where you can find some non conventional trendy color combos to use for your next prject !</p>
+            <Asset1 />
             <Userinput change={this.changeName} />
            
             <div class="infobox">
@@ -64,6 +66,8 @@ in any part of your website or in any kind of graphic design work.</p>
                     /> 
                  })}
                  </div>
+
+                 <Asset2 />
    
             <Create />
 

@@ -19,7 +19,7 @@ const Head = styled.div`
 
 const Result = styled.div`
    
-    padding:50px;
+    padding:100px;
     font-size:50px;
     margin:50px;
 `;
@@ -28,10 +28,10 @@ class Create extends Component {
 
     componentDidMount = () => {
         const config = {
-          origin: 'top',
-          duration: 1000,
-          delay: 150,
-          distance: '30px',
+          origin: 'left',
+          duration: 2000,
+          delay: 300,
+          distance: '300px',
           scale: 1,
           easing: 'ease',
         }
@@ -55,9 +55,7 @@ class Create extends Component {
 
         render(){
         return(
-            <StyledDiv>
-
-            <Head>CREATE COLOR COMBOS</Head>
+            <StyledDiv ref="box1">
 
               <Container>
               <Row>
@@ -73,7 +71,8 @@ class Create extends Component {
                  /></Col>
                 
 
-                 <Col><SketchPicker
+                 <Col>
+                   <SketchPicker
                  color={ this.state.color }
                  onChangeComplete={ this.handleChangeCompleteFont }
                  /></Col>
