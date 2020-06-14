@@ -8,6 +8,7 @@ import Header2 from './Header2';
 import Header from './Header';
 import Asset1 from './Asset1';
 import Asset2 from './Asset2';
+import Asset3 from './Asset3';
 import Create from './Create';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container'
@@ -25,8 +26,8 @@ class App extends Component{
             { id:'3' , name: 'HELLO !' , class1: 'blue1' , class2:"blue2" , back1:"#006382" , back2:"#DBFF00"},
             { id:'4' , name: 'HELLO !' , class1: 'orange1' , class2:"orange2" , back1:"#212122" , back2:"#FB710E"},
             { id:'5' , name: 'HELLO !' , class1: 'blue3' , class2:"blue4" , back1:"#160B44" , back2:"#D19AE4"},
-            { id:'6' , name: 'HELLO !' , class1: 'olive1' , class2:"olive2" , back1:"#4D6B5C" , back2:"#BDFF00"}
-           
+            { id:'6' , name: 'HELLO !' , class1: 'olive1' , class2:"olive2" , back1:"#4D6B5C" , back2:"#BDFF00"},
+            { id:'7' , name: 'HELLO !' , class1: 'magenta1' , class2:"magenta2" , back1:"#280C22" , back2:"#D41900"}
         ]
 
     }
@@ -70,6 +71,8 @@ class App extends Component{
                  <Asset2 />
    
             <Create />
+
+            <Asset3 />
 
            
 

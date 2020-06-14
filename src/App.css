@@ -133,6 +133,12 @@
   margin-left:700px;
 }
 
+.Asset3{
+  margin-top:100px;
+  margin-bottom:-30px;
+  margin-left:700px;
+}
+
 .purple1{
   display:inline-block;
   width:40%;
@@ -249,6 +255,26 @@
   background-color: #D19AE4;
   font-size: 40px;
   color:#160B44;
+  font-weight: semi-bold;
+  padding: 60px;
+}
+
+.magenta1{
+  display:inline-block;
+  width:40%;
+  background-color: #280C22;
+  font-size: 40px;
+  color:#D41900;
+  font-weight: semi-bold;
+  padding: 60px;
+}
+
+.magenta2{
+  display:inline-block;
+  width:40%;
+  background-color: #D41900;
+  font-size: 40px;
+  color:#280C22;
   font-weight: semi-bold;
   padding: 60px;
 }
